@@ -1,23 +1,29 @@
 .page-nav {
-	padding: 30px 0;
-	border-bottom: 2px solid #AFAFAF;
+  padding: 30px 0;
+  border-bottom: 2px solid #AFAFAF;
 }
 
 .page-nav__list {
-	@include list;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: flex-end;
+  @include list;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .page-nav__item {
-	padding: 2px 18px;
+  padding: 2px 18px;
 
-	&--active {
-		color: #f6ae48;
-	}
+  &--active {
+    color: #f6ae48;
+  }
 
-	a {
-		color: inherit;
-	}
+  a {
+    color: inherit;
+    transition: color .25s;
+
+    &:hover,
+    &:focus {
+      color: #f6ae48;
+    }
+  }
 }
