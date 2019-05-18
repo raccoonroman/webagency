@@ -25,3 +25,14 @@
     color: #F4F4F4;
   }
 }
+
+@media (max-width: 840px) {
+  .about__desc {
+    padding: 0;
+
+    &::after {
+      content: '';
+      font-size: 0;
+    }
+  }
+}

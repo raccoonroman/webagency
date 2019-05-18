@@ -36,3 +36,15 @@
   padding: 10px;
   max-width: 381px;
 }
+
+@media (max-width: 840px) {
+  .products {
+    padding-top: 100px;
+  }
+
+  .products__title-box {
+    top: 0;
+    max-width: 100%;
+    padding: 5% 0 25%;
+  }
+}

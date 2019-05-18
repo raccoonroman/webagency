@@ -21,7 +21,7 @@
   justify-content: space-between;
 
   &:last-child {
-    margin-top: 14px;
+    margin: 14px 0;
   }
 }
 
@@ -60,5 +60,23 @@ textarea.feedback__input {
   &:hover,
   &:focus {
     background-color: rgba(#f6ae48, .9);
+  }
+}
+
+@media (max-width: 840px) {
+  .feedback__title {
+    margin-bottom: 16px;
+  }
+
+  .feedback__desc {
+    max-width: 100%;
+  }
+
+  .feedback__input {
+    width: 100%;
+  }
+
+  .feedback__form-text {
+    padding: 0 0 8px;
   }
 }

@@ -49,3 +49,11 @@
 .hero__data-item-desc {
   margin: 0 0 24px;
 }
+
+@media (max-width: 840px) {
+  .hero {
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 24px;
+  }
+}

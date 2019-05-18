@@ -1,6 +1,7 @@
 .trade-in {
   color: #fff;
   background: #747575 url('../img/bg-trade.jpg') center no-repeat;
+  background-size: cover;
 }
 
 .trade-in__title {
@@ -11,11 +12,11 @@
 
 .trade-in__list {
   @include list;
-  margin: 0 -20px;
+  margin: 0 -15px;
 }
 
 .trade-in__item {
-  padding: 20px;
+  padding: 15px;
 }
 
 .trade-in__item-title {
@@ -63,5 +64,28 @@
   &:hover,
   &:focus {
     background-color: rgba(#f6ae48, .9);
+  }
+}
+
+@media (max-width: 840px) {
+  .trade-in__item-title {
+    padding-left: 64px;
+
+    &::before {
+      width: 44px;
+      height: 44px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .trade-in__title {
+    padding-bottom: 0;
+  }
+
+  .trade-in__item-title {
+    font-size: 24px;
+    padding-left: 54px;
+    padding-bottom: 16px;
   }
 }

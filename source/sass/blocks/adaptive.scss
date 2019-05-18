@@ -10,3 +10,11 @@
     left: -10%;
   }
 }
+
+@media (max-width: 840px) {
+  .adaptive {
+    padding: 10% 0 40%;
+    background-position: center bottom 24px;
+    background-size: 90% auto;
+  }
+}

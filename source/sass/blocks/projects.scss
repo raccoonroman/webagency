@@ -26,6 +26,7 @@
 
 .projects__list {
   @include list;
+  display: flex;
   margin: 0 auto;
   max-width: 1920px;
   flex-wrap: wrap;
@@ -50,3 +51,12 @@
     background-color: rgba(#6a6b8e, .8);
   }
 }
+
+// @media (max-width: 840px) {
+//   .projects__link {
+
+//     img {
+//       margin: 0 auto;
+//     }
+//   }
+// }

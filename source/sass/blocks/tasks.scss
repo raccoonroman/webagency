@@ -58,3 +58,9 @@
   margin: 0 16px;
   transition: transform .25s;
 }
+
+@media (max-width: 840px) {
+  .tasks__item-box:not(.tasks__item-box--orange) {
+    padding: 16px 0;
+  }
+}

@@ -19,4 +19,11 @@
 .search__logo {
   display: block;
   margin: 0 auto 36px;
+  text-align: center;
+}
+
+@media (max-width: 840px) {
+  .search__img-wrapper {
+    display: flex;
+  }
 }

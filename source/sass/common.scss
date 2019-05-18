@@ -84,6 +84,7 @@ body {
     position: absolute;
     top: 50%;
     left: 0;
+    white-space: nowrap;
     transform: translateY(-50%);
     color: #DFDFDF;
     font-size: 80px;
@@ -109,4 +110,62 @@ body {
 
 .col-3 {
   width: 25%;
+}
+
+@media (max-width: 1040px) {
+  .title-48 {
+    font-size: 36px;
+  }
+
+  .title-36 {
+    font-size: 32px;
+
+    &::before {
+      font-size: 64px;
+    }
+  }
+
+  .text-24 {
+    font-size: 20px;
+  }
+
+  .btn {
+    font-size: 18px;
+    padding: 8px 24px;
+  }
+}
+
+@media (max-width: 840px) {
+  .row {
+    display: block;
+  }
+
+  .col-6,
+  .col-4 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .col-3 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .title-48 {
+    font-size: 32px;
+  }
+
+  .title-36 {
+    font-size: 28px;
+
+    &::before {
+      content: '';
+      font-size: 0;
+    }
+  }
+
+  .text-24 {
+    font-size: 18px;
+  }
 }
