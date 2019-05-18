@@ -1,28 +1,27 @@
 .about {
-	padding: 5% 0;
+  padding: 5% 0;
 }
 
 .about__row {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .about__desc {
-	position: relative;
-	max-width: 780px;
-	padding: 24px 48px;
-	font-size: 20px;
+  position: relative;
+  max-width: 780px;
+  padding: 24px 48px;
+  font-size: 20px;
 
-	&::after {
-		content: "WE";
-		position: absolute;
-		top: 50%;
-		left: 0;
-		z-index: -1;
-		font-weight: 700;
-		font-size: 340px;
-		transform: translateY(-50%);
-		color: #F4F4F4;
-	}
+  &::after {
+    content: "WE";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -1;
+    font-weight: 700;
+    font-size: 340px;
+    transform: translateY(-50%);
+    color: #F4F4F4;
+  }
 }

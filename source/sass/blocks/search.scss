@@ -1,0 +1,22 @@
+.search {
+  padding-bottom: 5%;
+}
+
+.search__row {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search__title {
+  margin: 0;
+
+  &::before {
+    content: 'BE THE FIRST';
+    left: -10%;
+  }
+}
+
+.search__logo {
+  display: block;
+  margin: 0 auto 36px;
+}

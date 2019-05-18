@@ -5,7 +5,6 @@
 
 .page-nav__list {
 	@include list;
-	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: flex-end;
@@ -13,7 +12,6 @@
 
 .page-nav__item {
 	padding: 2px 18px;
-	font-size: 24px;
 
 	&--active {
 		color: #f6ae48;

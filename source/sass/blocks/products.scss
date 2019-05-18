@@ -1,5 +1,5 @@
 .products {
-  padding: 10% 0 5%;
+  padding: 10% 0 10%;
   position: relative;
 }
 
@@ -26,14 +26,13 @@
 
 .products__list {
   @include list;
+  margin: 0 -10px;
   position: relative;
-  display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .products__item {
   padding: 10px;
-  width: calc(100% / 3);
   max-width: 381px;
 }
