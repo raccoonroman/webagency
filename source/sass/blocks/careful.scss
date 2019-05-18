@@ -1,0 +1,19 @@
+.careful {
+  padding: 10% 0;
+}
+
+.careful__row {
+  align-items: center;
+}
+
+.careful__title {
+
+  &::before {
+    content: 'BE CAREFUL';
+    left: -10%;
+  }
+}
+
+.careful__img {
+  padding: 0 36px;
+}
