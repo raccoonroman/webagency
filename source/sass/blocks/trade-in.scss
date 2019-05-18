@@ -1,0 +1,67 @@
+.trade-in {
+  color: #fff;
+  background: #747575 url('../img/bg-trade.jpg') center no-repeat;
+}
+
+.trade-in__title {
+  margin: 0;
+  padding: 48px 0 24px;
+  text-align: center;
+}
+
+.trade-in__list {
+  @include list;
+  margin: 0 -20px;
+}
+
+.trade-in__item {
+  padding: 20px;
+}
+
+.trade-in__item-title {
+  position: relative;
+  margin: 0;
+  padding: 24px 0 24px 24%;
+  font-size: 28px;
+  text-transform: uppercase;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 16%;
+    height: 64px;
+    transform: translateY(-50%);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &--program::before {
+      background-image: url('../img/responsive.svg');
+
+  }
+
+  &--process::before {
+    background-image: url('../img/database.svg');
+  }
+
+  &--conditions::before {
+    background-image: url('../img/diamond-blue.svg');
+  }
+}
+
+.trade-in__item-desc {
+  margin: 0;
+  font-size: 18px;
+}
+
+.trade-in__btn {
+  margin-bottom: 42px;
+  background-color: #f6ae48;
+
+  &:hover,
+  &:focus {
+    background-color: rgba(#f6ae48, .9);
+  }
+}

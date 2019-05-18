@@ -1,0 +1,12 @@
+.adaptive {
+  padding: 10% 0;
+  background: transparent url('../img/devices.png') left 55vw center no-repeat;
+}
+
+.adaptive__title {
+
+  &::before {
+    content: 'ADAPTATE';
+    left: -10%;
+  }
+}
