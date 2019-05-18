@@ -1,0 +1,39 @@
+.products {
+  padding: 10% 0 5%;
+  position: relative;
+}
+
+.products__title-box {
+  position: absolute;
+  top: -44px;
+  width: 100%;
+  max-width: 666px;
+  padding: 5% 0 15%;
+  text-align: center;
+  color: #fff;
+  background-color: #F6AE48;
+  background-image:
+    url('../img/gears.svg'),
+    url('../img/gear.svg');
+  background-position: left -88px top, right -72px top -40px;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.products__title {
+  margin: 0;
+  text-transform: none;
+}
+
+.products__list {
+  @include list;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.products__item {
+  padding: 10px;
+  width: calc(100% / 3);
+  max-width: 381px;
+}
